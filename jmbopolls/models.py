@@ -5,7 +5,7 @@ from django.db.models import permalink
 from django.contrib.auth.models import User
 from django.contrib.sites.models import Site
 
-from poll.managers import PublishedManager
+from jmbopolls.managers import PublishedManager
 
 
 class Poll(models.Model):

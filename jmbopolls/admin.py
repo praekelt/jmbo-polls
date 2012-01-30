@@ -1,7 +1,7 @@
 from django.contrib import admin
 
 
-from poll.models import Poll, Choice
+from jmbopolls.models import Poll, Choice
 
 
 class ChoiceInline(admin.TabularInline):

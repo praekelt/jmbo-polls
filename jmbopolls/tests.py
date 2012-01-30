@@ -5,7 +5,7 @@ from django.core.urlresolvers import reverse
 from django.contrib.auth.models import User
 from django.contrib.sites.models import Site
 
-from poll.models import Poll, Choice
+from jmbopolls.models import Poll, Choice
 
 
 class PollTestCase(TestCase):

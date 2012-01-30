@@ -3,7 +3,7 @@ from django.shortcuts import get_object_or_404
 from django.views.generic.simple import direct_to_template
 from django.core.urlresolvers import reverse
 
-from poll.models import Poll
+from jmbopolls.models import Poll
 
 
 def poll_detail(request, pk, show_results=False):
